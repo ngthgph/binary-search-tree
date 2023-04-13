@@ -24,8 +24,7 @@ public class BTree {
     }
 
     void insertMany(int[] a) {
-        for(int i = 0; i < a.length; i++)
-            insert(a[i]);
+        for (int j : a) insert(j);
     }
 
     void visit (Node p) {
